@@ -1,0 +1,137 @@
+/* -------------------- Fondo y texto general -------------------- */
+body, html {
+  background-color: #1b1b1d !important;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.mb-3, .mb-4, p {
+  color: white;
+}
+
+/* -------------------- Navegación -------------------- */
+.navbar {
+  background-color: #1b1b1d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: #e0e0e0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #9dabff;
+}
+
+/* -------------------- Sidebars -------------------- */
+
+
+/* -------------------- Contenido principal -------------------- */
+main.col-md-8 {
+  margin: 0 auto;        /* Centra horizontalmente */
+  float: none;           /* Evita que flote */
+  max-width: 900px;      /* Ancho máximo */
+  width: 100%;
+  padding: 1rem;
+}
+
+main.col-md-8 section {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* -------------------- Secciones -------------------- */
+section,
+.ado-anniv,
+.ado-vinilos,
+.ado-albums {
+  background-color: #1b1b1d !important;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* -------------------- Carrusel -------------------- */
+.carousel,
+.carousel-item {
+  background-color: #1b1b1d;
+}
+
+.carousel-inner img {
+  border-radius: 10px;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+/* -------------------- Imágenes de productos -------------------- */
+.img-fluid {
+  border-radius: 10px;
+  border: 2px solid #1b1b1d;
+  transition: transform 0.3s ease;
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
+  border-color: #3d5afe;
+}
+
+.ado-anniv img,
+.ado-vinilos img,
+.ado-albums img {
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+/* -------------------- Texto agotado -------------------- */
+.agotado {
+  color: #ff8080;
+  font-weight: bold;
+}
+
+/* -------------------- Footer -------------------- */
+footer,
+.footer {
+  background-color: #1b1b1d;
+  color: #e0e0e0;
+  padding: 2rem 1rem;
+}
+
+.footer a {
+  color: #9dabff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #3d5afe;
+}
+
+/* -------------------- Bootstrap Containers -------------------- */
+.container,
+.row,
+.col,
+.col-md-4,
+.col-md-6 {
+  background-color: transparent !important;
+}
+.titulo {
+   color: #cccccc;
+}
